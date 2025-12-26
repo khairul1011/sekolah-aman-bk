@@ -67,41 +67,6 @@ Bank data untuk kasus yang telah selesai.
 * Composer
 * Koneksi Internet (Wajib, untuk mengambil data dari API & Peta)
 
----
-
-## 🚀 Cara Instalasi
-
-1.  **Clone Repository**
-    ```bash
-    git clone [https://github.com/username-anda/nama-repo.git](https://github.com/username-anda/nama-repo.git)
-    cd nama-repo
-    ```
-
-2.  **Install Dependencies**
-    ```bash
-    composer install
-    ```
-
-3.  **Konfigurasi Environment**
-    Salin file contoh konfigurasi:
-    ```bash
-    cp .env.example .env
-    ```
-    Generate Application Key:
-    ```bash
-    php artisan key:generate
-    ```
-
-4.  **Jalankan Server**
-    ```bash
-    php artisan serve
-    ```
-
-5.  **Akses Aplikasi**
-    Buka browser dan kunjungi `http://localhost:8000`.
-
----
-
 ## 📂 Struktur Endpoint API
 
 Aplikasi ini bergantung pada endpoint eksternal berikut untuk operasionalnya:
